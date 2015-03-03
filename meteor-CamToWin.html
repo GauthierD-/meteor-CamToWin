@@ -3,12 +3,14 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Cam to Win Project!</h1>
 
-  {{> hello}}
+  <video autoplay></video>
+  <canvas style='display:none;'></canvas>
+  <br />
+  <input type='text' name='name' placeholder="ton nom"/>
+
+  {{> photos}}
+
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>

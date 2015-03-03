@@ -1,0 +1,10 @@
+<template name="photos">
+    <ul>
+        {{#each photos}}
+        <li>
+            <img src='{{url}}' /><br />
+            {{name}}
+        </li>
+        {{/each}}
+    </ul>
+</template>
