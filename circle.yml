@@ -4,7 +4,7 @@ dependencies:
 
 test:
   override:
-    - jshint ./helpers.photo.js
+    - jshint/bin/jshint ./helpers.photo.js
 
 machine:
   pre:
